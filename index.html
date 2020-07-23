@@ -1,0 +1,114 @@
+
+Result Size: 1516 x 281
+<!DOCTYPE html>
+<html>
+<title>Coronavirus Bed Tracker</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 150%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
+</style>
+
+<head>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+
+
+  <!-- Map Positioner-->
+  
+  
+
+</head>
+
+
+<body>
+​
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Live Coronavirus Tracker</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <!-- <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+-->
+  </div>
+</div>
+​
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="COVID_Update_0.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+  </div>
+</header>
+​
+<!-- Page content -->
+<div class="w3-content" style="max-width:1400px">
+
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+</br>
+
+  <h1 class="w3-center">Background Information </h1>
+  <p class="w3-large">This Application was constructed to provide information to you and others about the impact of covid-19 and displays how covid-19 is affecting your community. We have closely observed and analyzed different data sets and statistics <!-- based on the number of hospital beds, icu beds, and -->covid-19 cases to display the perfect map for others nationwide to view.</p>
+
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    
+    <div class="w3-col m6 w3-padding-large">
+
+      <div class="embed-container"><small><a href="//portlandcc.maps.arcgis.com/apps/Embed/index.html?webmap=2a308db49b1b485884dbf016dde71fc8&extent=-132.1048,17.2823,-45.2689,52.5729&home=true&zoom=true&scale=true&search=true&searchextent=false&legendlayers=true&basemap_toggle=true&alt_basemap=gray&disable_scroll=false&theme=light" style="color:#0000FF;text-align:left" target="_blank"></a></small><br><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="SGCI 2020 COVID County Data Mapping" src="//portlandcc.maps.arcgis.com/apps/Embed/index.html?webmap=2a308db49b1b485884dbf016dde71fc8&extent=-132.1048,17.2823,-45.2689,52.5729&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=false&legendlayers=true&basemap_toggle=true&alt_basemap=gray&disable_scroll=false&theme=light"></iframe></div>
+      </div>
+
+
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">How to properly utilize the tracker</h1>
+      <h5 class="w3-center">by Lena, Ronesha, Christian and Cesar</h5> </br>
+      <p class="w3-large">The “+” and “-” sign allows those who are viewing to implement a more appealing view for their eyes whether the map needs to be a size smaller or a size bigger. </p>
+      <p class="w3-large">The text box in the right top corner allows the viewer to type in a particular address or place so that the map can identify the exact county, city and state pertaining to the hospital data for covid-19 that was collected, sources can be more accurate this way.</p>
+      <p class="w3-large">Covid data can be displayed as well by clicking upon a certain county or state with a mouse. </p>
+      <p class="w3-large">If you click the double arrow in the top left corner, a menu will appear that allows you to toggle which layers are viewed. Each layer shows different information. The State Borders layer simply allows the user to have more clearly defined state borders so they can easily orient where they are looking at. The Definitive Healthcare Bed Locations shows where there are staffed hospital beds in each county as well as how many total for each county. The COVID active and death rate ratio shows how many total COVID-19 cases divided by how many deaths a county has experienced so the user can see the ratio. The COVID active and confirmed rate ratio shows how many total COVID-19 cases divided by how many cases tested positive a county has experienced so the user can see the ratio.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium"> We would like to thank our moms (and dads) for supporting us </p>
+    </div>
+  </div>
+  <hr>
+  
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-dark-grey w3-padding-20">
+  <p>Powered by <a title="W3.CSS" target="_blank" class="w3-hover-text-green">Club Hub</a></p>
+</footer>
+
+</body>
+</html>
