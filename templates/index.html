@@ -1,0 +1,128 @@
+
+Result Size: 1516 x 281
+<!DOCTYPE html>
+<html>
+<title>Project Charlie's Angels</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+body {
+  padding: 0px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+
+<head>
+
+
+
+  <!-- Map Positioner-->
+
+
+
+</head>
+
+
+<body>
+​
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="index.html" class="w3-bar-item w3-button">Project Charlie's Angels</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+     <div class="w3-right w3-hide-small">
+      <a href="About.html" class="w3-bar-item w3-button">About Us</a><!--
+      <a href="#menu" class="w3-bar-item w3-button">About the Tool</a>
+
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      -->
+    </div>
+  </div>
+</div>
+​
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide w3-center" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="PearcPres.jpg" alt="Hamburger Catering" width="1200" height="600">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+  </div>
+</header>
+​
+<!-- Page content -->
+<div class="w3-content" style="max-width:1400px">
+<!--
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+
+
+</script>
+-->
+
+  <h1 class="w3-center">How to Properly Utilize this Tool: </h1>
+  <p class="w3-large">
+
+Files must be uploaded in a .csv format.</br></br> Instructions on how to save your file to the proper format is here:
+
+https://support.microsoft.com/en-us/office/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba</br></br>
+
+For geographic data, coordinates must be in x and y format for the mapping feature to process correctly.</p>
+
+
+
+  <hr>
+
+
+<!-- End page content -->
+
+
+
+<h1 class="w3-center">Upload your file of Data</h1>
+<p class="w3-large">Click on the "Choose File" button to upload a file:</p>
+
+<form action= "http://localhost:5001/uploader" method = "POST"
+         enctype = "multipart/form-data">
+  <input type = "file" name = "file" />
+  <input type = "submit"/></br></br>
+</form>
+
+<script>
+function myFunction() {
+  var x, text;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("numb").value;
+
+  // If x is Not a Number or less than one or greater than 10
+  if (isNaN(x) || x < 1 || x > 10) {
+    text = "Input not valid";
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-dark-grey w3-padding-20">
+  <p>Powered by <a title="W3.CSS" target="_blank" class="w3-hover-text-green">Charlie's Angels</a></p>
+</footer>
+
+</body>
+</html>
