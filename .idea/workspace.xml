@@ -19,24 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79acd39c-1f7d-4c3e-a38a-4c99efe93d2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/0.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/About.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Danny_DeVito_cropped_and_edited_for_brightness.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Danny_De_Vito.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/IMG_20200727_111648.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Image from iOS (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Image from iOS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/PearcPres.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/charlie-dey.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/danny-devito-9542289-1-402.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/filler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mohamed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/monsalud.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/santiago.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/unknown.png" afterDir="false" />
-    </list>
+    <list default="true" id="79acd39c-1f7d-4c3e-a38a-4c99efe93d2b" name="Default Changelist" comment="Created a frontend for the website and pages that will hold our tools" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +48,36 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Another Website" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Another Website" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pearc20_quickviz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\cesar\PycharmProjects\untitled\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -78,6 +90,14 @@
       <option name="presentableId" value="Default" />
       <updated>1595906475798</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created a frontend for the website and pages that will hold our tools">
+      <created>1595970500010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595970500010</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,15 +114,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Created a frontend for the website and pages that will hold our tools" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a frontend for the website and pages that will hold our tools" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="654" y="275" key="#Notifications" timestamp="1595970587737">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1595970587737" />
+    <state x="484" y="8" key="#app" timestamp="1595972636439">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="8" key="#app/0.0.1536.824@0.0.1536.824" timestamp="1595972636439" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595907132688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595907132688" />
+    <state x="407" y="174" key="MultipleFileMergeDialog" timestamp="1595970521638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1595970521638" />
     <state x="520" y="115" key="RollbackChangesDialog" timestamp="1595913612574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="520" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595913612574" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1595970317120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595970317120" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595970607560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595970607560" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595972529700">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1595972529700" />
+    <state x="193" y="164" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1595970394937">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="193" y="164" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1536.824@0.0.1536.824" timestamp="1595970394937" />
   </component>
 </project>
